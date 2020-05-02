@@ -1,0 +1,17 @@
+# OSX
+#
+.DS_Store
+
+# node.js
+#
+node_modules/
+dist/
+reports/
+npm-debug.log
+yarn-error.log
+
+# Unit testing
+coverage
+__snapshots__
+.scannerwork
+

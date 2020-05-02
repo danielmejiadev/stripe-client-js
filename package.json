@@ -1,0 +1,47 @@
+{
+  "name": "stripe-client-js",
+  "version": "1.0.0",
+  "description": "An easy client to manage your stripe resources",
+  "main": "dist/stripe.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "clean": "rm -rf dist",
+    "prepublish": "yarn clean && yarn build",
+    "lint": "eslint --ext .jsx,.js src --format html --output-file reports/eslint.html",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielmejiadev/stripe-client-js.git"
+  },
+  "keywords": [
+    "Stripe",
+    "Javascript",
+    "Fronted",
+    "Client",
+    "API"
+  ],
+  "author": "Daniel Mejia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielmejiadev/stripe-client-js/issues"
+  },
+  "homepage": "https://github.com/danielmejiadev/stripe-client-js#readme",
+  "dependencies": {
+    "axios": "0.19.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.8.4",
+    "@babel/core": "7.9.6",
+    "@babel/plugin-proposal-class-properties": "7.8.3",
+    "@babel/preset-env": "7.9.6",
+    "babel-eslint": "10.1.0",
+    "babel-jest": "25.5.1",
+    "babel-preset-es2015": "6.24.1",
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-plugin-import": "2.20.2",
+    "jest": "25.5.4"
+  }
+}
