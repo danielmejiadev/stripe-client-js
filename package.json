@@ -1,6 +1,6 @@
 {
   "name": "stripe-client-js",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An easy client to manage your stripe resources",
   "main": "dist/stripe.js",
   "scripts": {
