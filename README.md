@@ -36,7 +36,9 @@ Stripe.products.list()
 | `plans`          |
 | `suscriptions`   |
 | `paymentMethods` |
-| `invoices` |
+| `invoices`       |
+| `tokens`         |
+| `coupons`        |
 
 Every resources has a set of predefined resources
 ```js

@@ -5,6 +5,8 @@ import { Customers } from './customers';
 import { Suscriptions } from './suscriptions';
 import { PaymentMethods } from './paymentMethods';
 import { Invoices } from './invoices';
+import { Tokens } from './tokens';
+import { Coupons } from './coupons';
 
 /**
  * The exported resources url of the stripe.
@@ -16,6 +18,8 @@ const resources = {
   suscriptions: Suscriptions,
   paymentMethods: PaymentMethods,
   invoices: Invoices,
+  tokens: Tokens,
+  coupons: Coupons,
 };
 
 export default resources;
