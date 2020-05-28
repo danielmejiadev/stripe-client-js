@@ -7,6 +7,7 @@ import { PaymentMethods } from './paymentMethods';
 import { Invoices } from './invoices';
 import { Tokens } from './tokens';
 import { Coupons } from './coupons';
+import { OAuth } from './oauth';
 
 /**
  * The exported resources url of the stripe.
@@ -20,6 +21,7 @@ const resources = {
   invoices: Invoices,
   tokens: Tokens,
   coupons: Coupons,
+  oauth: OAuth,
 };
 
 export default resources;
