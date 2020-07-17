@@ -1,13 +1,3 @@
-/*
- * This source code is the confidential, proprietary information of
- * Cropswap, you may not disclose such Information,
- * and may only use it in accordance with the terms of the license
- * agreement you entered into with Cropswap.
- *
- * 2019: Cropswap
- * All Rights Reserved.
- */
-
 // Dependencies
 import axios from 'axios';
 

@@ -9,6 +9,7 @@ import { Tokens } from './tokens';
 import { Coupons } from './coupons';
 import { OAuth } from './oauth';
 import { TaxRates } from './taxRates';
+import { Prices } from './prices';
 
 /**
  * The exported resources url of the stripe.
@@ -24,6 +25,7 @@ const resources = {
   coupons: Coupons,
   oauth: OAuth,
   taxRates: TaxRates,
+  prices: Prices,
 };
 
 export default resources;
