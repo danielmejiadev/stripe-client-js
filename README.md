@@ -41,6 +41,7 @@ Stripe.products.list()
 | `coupons`        |
 | `oauth`          |
 | `taxRates`       |
+| `prices`         |
 
 Every resources has a set of predefined resources
 ```js
