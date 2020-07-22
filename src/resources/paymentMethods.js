@@ -24,6 +24,18 @@ export class PaymentMethods extends BaseService {
     const requestUrl = `${url}/${id}/attach`;
     return this.axiosInstance.post(requestUrl, undefined, { ...rest });
   }
+
+  /**
+   * Detach a payment method.
+   * @param id The payment method id.
+   * @param { Object } [requestParams=this.defaultParams] The params to make the request.
+   * @return { Promise<any> } The data promise.
+   */
+  detach = (id, requestParams = this.defaultParams) => {
+    const { url = this.resourceUrl, ...rest } = requestParams;
+    const requestUrl = `${url}/${id}/detach`;
+    return this.axiosInstance.post(requestUrl, undefined, { ...rest });
+  }
 }
 
 export default PaymentMethods;
